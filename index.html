@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>land-page</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <header id="event-description">
+        <div id="disclaimer">
+            <h2>Indercor</h2>
+            <p class="about-event">
+                Um evento evento para revolucionar sua criatividade
+            </p>
+            <p class="event-date">
+                Domingo,27 março de 2023
+            </p>
+        </div>
+        <div id="subscription-form">
+            <p>preecha o formulário para receber os detalhes do evento</p>
+            <form >
+                <div class="form-group">
+                    <label for="Nome">Nome usuário</label>
+                    <input type="text" name="name" placeholder="Digite o seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="Nome">E-mail</label>
+                    <input type="email" name="email" placeholder="Digite o seu e-mail">
+                </div>
+                <div class="form-group">
+                    <label for="Nome">Telefone</label>
+                    <input type="text" name="phone" placeholder="Número do Whatsapp">
+                </div>
+                <div class="form-group">
+                    <label for="Nome">Principal interesse</label>
+                    <select name="interest" >
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="apartament">Apartamentos</option>
+                        <option value="hause">Casa</option>
+                        <option value="garden">Jardins</option>
+                        <option value="other">Outros</option>
+                    </select>
+                </div>
+                <input type="submit" value="Quero me inscrever" class="btn">
+            </form>
+        </div>
+    </header>
+    <section id="key-benefits">
+        <h2>O que você vai aprender:</h2>
+        <div class="benefits">
+            <div class="benefit">
+                <div id="benefit-1" class="benefit-img"></div>
+                <p>
+                    Alguma coisa legal que vai fazer diferença na vida do participante.
+                </p>
+            </div>
+            <div class="benefit">
+                <div id="benefit-2" class="benefit-img"></div>
+                <p>
+                    Alguma coisa legal que vai fazer diferença na vida do participante.
+                </p>
+            </div>
+            <div class="benefit">
+                <div id="benefit-3" class="benefit-img"></div>
+                <p>
+                    Alguma coisa legal que vai fazer diferença na vida do participante.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="slider">
+        <div class="slides">
+            <!--Radio buttons-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <!--fim-->
+
+            <!--Slide1 images-->
+            <div class="slide first">
+                <div id="location">
+                    <div id="address">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <div id="address-datails">
+                            <p>Rua do evento</p>
+                            <p>Bairro tal </p>
+                            <p>Abertura: 14h</p>
+                        </div>
+                    </div>
+                    <div id="about-location">
+                        <h3>local de destaque</h3>
+                        <p>
+                            o evento será realizado em um local prestigiados pelos amantes de Design de interiror,onde teremos exemplos de ambientes,tanto interno quanto como externo
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--fim Slide1 images-->
+
+            <!--Slide2 images-->
+            <div class="slide">
+                <div id="location1">
+                    <div id="address">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <div id="address-datails">
+                            <p>Rua do evento</p>
+                            <p>Bairro tal </p>
+                            <p>Abertura: 14h</p>
+                        </div>
+                    </div>
+                    <div id="about-location">
+                        <h3>local de teste</h3>
+                        <p>
+                            o evento será realizado em um local prestigiados pelos amantes de Design de interiror,onde teremos exemplos de ambientes,tanto interno quanto como externo
+                        </p>
+                    </div>
+                </div>
+            </div>
+             <!-- fim Slide2 images-->
+             <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+             </div>
+
+        </div>
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+         
+        </div>
+    </section>
+    <section id="datails">
+        <div class="datail" id="datail-1">
+            <img src="img/hrz-3.jpg" alt="sala decorada em tens claros">
+            <div class="datails-description">
+                <h3>Conheça os ambientes que você vai aprender a decorar</h3>
+            </div>
+        </div>
+
+        <div class="datail" id="datail-2">
+            
+            <div class="datails-description">
+                <h3>detalhes</h3>
+                <ul>
+                    <li>Posicionamento</li>
+                    <li>Aproveitamento de espaço</li>
+                    <li>combinação de cores</li>
+                </ul>
+            </div>
+            <img src="img/hrz-4.jpg" alt="sala de jantar decorada">
+        </div>
+
+        <div class="datail" id="datail-3">
+            <img src="img/hrz-6.jpg" alt="sala decorada em tens claros">
+            <div class="datails-description">
+                <h3>Objetos</h3>
+                <ul>
+                    <li>Objetos</li>
+                    <li>Planejamento</li>
+                    <li>e muito mais...</li>
+                    <li>mesas</li>
+                    <li>cadeiras</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
